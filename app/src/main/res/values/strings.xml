@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ASR Delivery</string>
+    <string-array name="tamanho">
+        <item>4 PEDAÇOS</item>
+        <item>8 PEDAÇOS</item>
+        <item>12 PEDAÇOS</item>
+    </string-array>
+</resources>
