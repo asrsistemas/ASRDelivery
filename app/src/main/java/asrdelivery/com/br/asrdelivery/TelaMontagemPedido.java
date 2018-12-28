@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class TelaMontagemPedido extends AppCompatActivity {
 
     Spinner tipo;
+    Spinner exibirSabor2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,12 @@ public class TelaMontagemPedido extends AppCompatActivity {
 
                 if(item.equals("2 SABORES")){
                     //fazer exibir o segundo sabor
-                    Toast.makeText(getApplicationContext(),item, Toast.LENGTH_LONG).show();
+                    exibirSabor2 = (Spinner) findViewById(R.id.spinSabor2);
+                    exibirSabor2.setVisibility(View.VISIBLE);
+                }
+                if(item.equals("INTEIRA")){
+                    exibirSabor2 = (Spinner) findViewById(R.id.spinSabor2);
+                    exibirSabor2.setVisibility(View.INVISIBLE);
                 }
             }
 
