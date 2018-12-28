@@ -8,7 +8,9 @@
     </string-array>
     <string-array name="tipo">
         <item>ESCOLHA O TIPO</item>
+        <item></item>
         <item>INTEIRA</item>
+        <item></item>
         <item>2 SABORES</item>
     </string-array>
     <string-array name="borda">
@@ -26,5 +28,14 @@
         <item>03 - FRANGO             R$ 38,00</item>
         <item>04 - CALABRESA          R$ 37,00</item>
         <item>05 - LOMBINHO           R$ 37,00</item>
+    </string-array>
+    <string-array name="bebida">
+        <item>ESCOLHA A BEBIDA</item>
+        <item>101 - COCA COLA 1,5L    R$  9,00</item>
+        <item>102 - FANTA 1,5L        R$  9,00</item>
+        <item>103 - GUARANÁ 1,5L      R$  9,00</item>
+        <item>104 - ITUBAINA 2L       R$  7,00</item>
+        <item>105 - BRAHMA 350ML      R$  4,00</item>
+        <item>106 - SKOL   350ML      R$  4,00</item>
     </string-array>
 </resources>
