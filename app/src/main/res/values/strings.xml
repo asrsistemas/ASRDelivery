@@ -1,8 +1,30 @@
 <resources>
     <string name="app_name">ASR Delivery</string>
     <string-array name="tamanho">
-        <item>4 PEDAÇOS</item>
-        <item>8 PEDAÇOS</item>
-        <item>12 PEDAÇOS</item>
+        <item>ESCOLHA O TAMANHO</item>
+        <item>4  PEDAÇOS (BROTINHO) - R$ 8,00</item>
+        <item>8  PEDAÇOS (PADRÃO)</item>
+        <item>12 PEDAÇOS (FAMILIA)  + R$10,00</item>
+    </string-array>
+    <string-array name="tipo">
+        <item>ESCOLHA O TIPO</item>
+        <item>INTEIRA</item>
+        <item>2 SABORES</item>
+    </string-array>
+    <string-array name="borda">
+        <item>ESCOLHA A BORDA</item>
+        <item>SEM BORDA</item>
+        <item>CATUPIRY                 R$10,00</item>
+        <item>CHEDDAR                  R$10,00</item>
+        <item>MISTA                    R$10,00</item>
+        <item>MUSSARELA                R$12,00</item>
+    </string-array>
+    <string-array name="sabor">
+        <item>ESCOLHA O SABOR</item>
+        <item>01 - MUSSARELA          R$ 36,00</item>
+        <item>02 - PORTUGUESA         R$ 37,00</item>
+        <item>03 - FRANGO             R$ 38,00</item>
+        <item>04 - CALABRESA          R$ 37,00</item>
+        <item>05 - LOMBINHO           R$ 37,00</item>
     </string-array>
 </resources>
