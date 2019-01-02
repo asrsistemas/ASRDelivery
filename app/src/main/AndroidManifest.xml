@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TelaMontagemPedido" />
-        <activity android:name=".ActivityDadosPessoais"></activity>
+        <activity android:name=".ActivityDadosPessoais" />
+        <activity android:name=".ActivityCorfirmacao"></activity>
     </application>
 
 </manifest>

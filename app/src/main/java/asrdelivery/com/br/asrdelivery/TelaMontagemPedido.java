@@ -47,9 +47,8 @@ public class TelaMontagemPedido extends AppCompatActivity {
         tipo.setOnItemSelectedListener(escolha);
 
     }
-    public void irParaTelaDadosPessoais(View view){
-        Intent intentFormaPgto = new Intent(getApplicationContext(),ActivityDadosPessoais.class);
-        startActivity(intentFormaPgto);
-
+    public void irParaConfirmacao(View view) {
+        Intent intentConfirmacao = new Intent(getApplicationContext(), ActivityCorfirmacao.class);
+        startActivity(intentConfirmacao);
     }
 }
