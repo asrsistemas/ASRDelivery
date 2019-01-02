@@ -19,7 +19,8 @@
         <activity android:name=".TelaMontagemPedido" />
         <activity android:name=".ActivityDadosPessoais" />
         <activity android:name=".ActivityCorfirmacao" />
-        <activity android:name=".ActivityStatusPedido"></activity>
+        <activity android:name=".ActivityStatusPedido" />
+        <activity android:name=".AddProdutoActivity"></activity>
     </application>
 
 </manifest>
