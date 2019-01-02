@@ -64,15 +64,17 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextNumero" />
 
     <Button
-        android:id="@+id/btnIrParaConfirmacao"
+        android:id="@+id/btnFinalizarPedido"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="PRÓXIMO"
+        android:onClick="irParaStatusPedido"
+        android:text="FINALIZAR PEDIDO"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText

@@ -12,4 +12,8 @@ public class ActivityDadosPessoais extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dados_pessoais);
     }
+    public void irParaStatusPedido(View view) {
+        Intent intentStatusPedido = new Intent(getApplicationContext(), ActivityStatusPedido.class);
+        startActivity(intentStatusPedido);
+    }
 }

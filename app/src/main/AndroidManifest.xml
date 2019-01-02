@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".TelaMontagemPedido" />
         <activity android:name=".ActivityDadosPessoais" />
-        <activity android:name=".ActivityCorfirmacao"></activity>
+        <activity android:name=".ActivityCorfirmacao" />
+        <activity android:name=".ActivityStatusPedido"></activity>
     </application>
 
 </manifest>
