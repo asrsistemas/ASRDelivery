@@ -60,6 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="SAIR"
+        android:onClick="sair"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
