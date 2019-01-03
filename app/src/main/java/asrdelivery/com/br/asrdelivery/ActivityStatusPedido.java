@@ -5,15 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class ActivityStatusPedido extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_status_pedido);
     }
-    public void irParaTelaMontagemPedido(View view) {
-        Intent intentMontagemPedido = new Intent(getApplicationContext(), TelaMontagemPedido.class);
-        startActivity(intentMontagemPedido);
+    public void sair(View view) {
+        Intent intentSair = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intentSair);
     }
 }
