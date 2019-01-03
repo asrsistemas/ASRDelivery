@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intentMontagemPedido = new Intent(getApplicationContext(), TelaMontagemPedido.class);
         startActivity(intentMontagemPedido);
     }
+    public void addProduto(View view){
+        Intent intentAddProduto = new Intent(getApplicationContext(), AddProdutoActivity.class);
+        startActivity(intentAddProduto);
+    }
 }
