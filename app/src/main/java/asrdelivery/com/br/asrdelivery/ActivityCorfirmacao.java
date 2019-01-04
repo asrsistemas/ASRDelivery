@@ -5,19 +5,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class ActivityCorfirmacao extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_corfirmacao);
     }
     public void irParaTelaMontagemPedido(View view) {
         Intent intentMontagemPedido = new Intent(getApplicationContext(), TelaMontagemPedido.class);
         startActivity(intentMontagemPedido);
     }
-    public void addProduto(View view){
-        Intent intentAddProduto = new Intent(getApplicationContext(), AddProdutoActivity.class);
-        startActivity(intentAddProduto);
+    public void irParaDadosPessoais(View view) {
+        Intent intentDadosPessoais = new Intent(getApplicationContext(), ActivityDadosPessoais.class);
+        startActivity(intentDadosPessoais);
     }
+
 }

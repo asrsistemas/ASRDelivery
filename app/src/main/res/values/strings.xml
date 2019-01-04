@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ASR Delivery</string>
+    <string name="app_name">ASRDelivery</string>
     <string-array name="tamanho">
         <item>ESCOLHA O TAMANHO</item>
         <item>4  PEDAÇOS (BROTINHO) - R$ 8,00</item>

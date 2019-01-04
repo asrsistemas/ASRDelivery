@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TelaMontagemPedido"></activity>
+        <activity android:name=".TelaMontagemPedido" />
+        <activity android:name=".ActivityDadosPessoais" />
+        <activity android:name=".ActivityCorfirmacao" />
+        <activity android:name=".ActivityStatusPedido" />
+        <activity android:name=".AddProdutoActivity"></activity>
     </application>
 
 </manifest>
