@@ -14,6 +14,7 @@
         android:text="ADICIONAR AO PEDIDO"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
+        android:onClick="irParaResumo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -107,5 +108,18 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinSabor2" />
+
+    <EditText
+        android:id="@+id/editTextQtdeBebida"
+        android:layout_width="50dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="UN"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinBebida" />
 
 </android.support.constraint.ConstraintLayout>

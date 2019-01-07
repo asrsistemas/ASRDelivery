@@ -1,11 +1,14 @@
 package asrdelivery.com.br.asrdelivery;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class AddProdutoActivity extends AppCompatActivity {
 
@@ -34,8 +37,10 @@ public class AddProdutoActivity extends AppCompatActivity {
                 Toast.makeText(getBaseContext(), "Produto inserido com sucesso", Toast.LENGTH_LONG).show();
             }
         });
-
-
-
     }
+    public void irParaCardapio(View view){
+        Intent intentCardapio = new Intent(getApplicationContext(),ActivityCardapio.class);
+        startActivity(intentCardapio);
+    }
+
 }

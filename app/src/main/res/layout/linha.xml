@@ -18,21 +18,24 @@
         android:layout_gravity="center_horizontal">
 
         <TextView
+            android:id="@+id/txtProduto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="4"
             android:text="Produto"
-            android:id="@id/txtProduto"
-            android:layout_weight="4" />
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
 
         <TextView
+            android:id="@+id/txtPreco"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Ingredientes"
-            android:id="@id/txtIngredientes"
             android:layout_weight="1"
-            android:textAlignment="textEnd"/>
+            android:text="Preco"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="end" />
+
 
     </LinearLayout>
 
