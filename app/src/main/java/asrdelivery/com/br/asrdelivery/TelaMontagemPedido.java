@@ -3,10 +3,10 @@ package asrdelivery.com.br.asrdelivery;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.view.View;
 
 public class TelaMontagemPedido extends AppCompatActivity {
 
@@ -47,8 +47,9 @@ public class TelaMontagemPedido extends AppCompatActivity {
         tipo.setOnItemSelectedListener(escolha);
 
     }
-    public void irParaConfirmacao(View view) {
-        Intent intentConfirmacao = new Intent(getApplicationContext(), ActivityCorfirmacao.class);
-        startActivity(intentConfirmacao);
+    public void irParaResumo(View view) {
+        Intent intentResumo = new Intent(getApplicationContext(), ActivityResumo.class);
+        startActivity(intentResumo);
     }
+
 }

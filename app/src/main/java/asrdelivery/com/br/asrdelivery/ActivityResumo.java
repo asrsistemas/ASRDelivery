@@ -5,12 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class ActivityCorfirmacao extends AppCompatActivity {
+public class ActivityResumo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_corfirmacao);
+        setContentView(R.layout.activity_resumo);
     }
     public void irParaTelaMontagemPedido(View view) {
         Intent intentMontagemPedido = new Intent(getApplicationContext(), TelaMontagemPedido.class);
