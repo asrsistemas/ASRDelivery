@@ -17,7 +17,7 @@ public class BDSQLiteHelper extends SQLiteOpenHelper {
     private static final String DESCRICAO = "descricao";
     private static final String INGREDIENTES = "ingredientes";
     private static final String PRECO = "preco";
-    private static  final  String[] COLUNAS = {
+    private static final String[] COLUNAS = {
             ID, DESCRICAO, INGREDIENTES, PRECO
     };
 
