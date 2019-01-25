@@ -18,6 +18,7 @@ public class AddProdutoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_produto);
+
         bd = new BDSQLiteHelper(this);
 
         final EditText nome = (EditText) findViewById(R.id.edtProduto);
@@ -38,7 +39,9 @@ public class AddProdutoActivity extends AppCompatActivity {
             }
         });
     }
+
     public void irParaCardapio(View view){
+        Toast.makeText(getBaseContext(), "EXIBIÇÃO DO CARDAPIO", Toast.LENGTH_LONG).show();
         Intent intentCardapio = new Intent(getApplicationContext(),ActivityCardapio.class);
         startActivity(intentCardapio);
     }

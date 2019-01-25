@@ -1,20 +1,19 @@
 <resources>
     <string name="app_name">ASRDelivery</string>
     <string-array name="tamanho">
-        <item>ESCOLHA O TAMANHO</item>
-        <item>4  PEDAÇOS (BROTINHO) - R$ 8,00</item>
         <item>8  PEDAÇOS (PADRÃO)</item>
+        <item>4  PEDAÇOS (BROTINHO) - R$ 8,00</item>
         <item>12 PEDAÇOS (FAMILIA)  + R$10,00</item>
     </string-array>
     <string-array name="tipo">
-        <item>ESCOLHA O TIPO</item>
+        <item>TIPO</item>
         <item></item>
         <item>INTEIRA</item>
         <item></item>
         <item>2 SABORES</item>
+        <item></item>
     </string-array>
     <string-array name="borda">
-        <item>ESCOLHA A BORDA</item>
         <item>SEM BORDA</item>
         <item>CATUPIRY                 R$10,00</item>
         <item>CHEDDAR                  R$10,00</item>
@@ -22,7 +21,7 @@
         <item>MUSSARELA                R$12,00</item>
     </string-array>
     <string-array name="sabor">
-        <item>ESCOLHA O SABOR</item>
+        <item>SABOR</item>
         <item>01 - MUSSARELA          R$ 36,00</item>
         <item>02 - PORTUGUESA         R$ 37,00</item>
         <item>03 - FRANGO             R$ 38,00</item>
@@ -30,7 +29,7 @@
         <item>05 - LOMBINHO           R$ 37,00</item>
     </string-array>
     <string-array name="bebida">
-        <item>ESCOLHA A BEBIDA</item>
+        <item>SEM BEBIDA</item>
         <item>101 - COCA COLA 1,5L    R$  9,00</item>
         <item>102 - FANTA 1,5L        R$  9,00</item>
         <item>103 - GUARANÁ 1,5L      R$  9,00</item>

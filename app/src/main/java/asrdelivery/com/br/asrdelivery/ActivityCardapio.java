@@ -20,7 +20,7 @@ public class ActivityCardapio extends AppCompatActivity {
     }
     @Override
     protected void onStart(){
-        Toast.makeText(getBaseContext(), "Produto inserido com sucesso", Toast.LENGTH_LONG).show();
+        Toast.makeText(getBaseContext(), "EXIBIÇÃO DO CARDAPIO", Toast.LENGTH_LONG).show();
         super.onStart();
         ListView lista = (ListView) findViewById(R.id.lvProdutos);
         listaProduto = bd.getAllProdutos();

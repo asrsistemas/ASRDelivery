@@ -12,7 +12,7 @@ public class BDSQLiteHelper extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "Base";
-    private static final String TABELA_CARDAPIO = "produto";
+    private static final String TABLE_CARD = "tabela" ;
     private static final String ID = "id";
     private static final String DESCRICAO = "descricao";
     private static final String INGREDIENTES = "ingredientes";
@@ -49,12 +49,12 @@ public class BDSQLiteHelper extends SQLiteOpenHelper {
         values.put(INGREDIENTES,produto.getIngredientes());
         values.put(PRECO, new Integer(produto.getPreco()));
 
-        db.insert(TABELA_CARDAPIO,null,values);
+        db.insert(TABLE_CARD,null,values);
         db.close();
     }
     public Produto getProduto(int id){
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.query(TABELA_CARDAPIO,
+        Cursor cursor = db.query(TABLE_CARD,
                 COLUNAS,
                 "id = ?",
                 new String[]{
@@ -84,7 +84,7 @@ public class BDSQLiteHelper extends SQLiteOpenHelper {
     public ArrayList<Produto> getAllProdutos(){
         ArrayList<Produto> listaProdutos = new ArrayList<Produto>();
 
-        String query = "SELECT * FROM " + TABELA_CARDAPIO;
+        String query = "SELECT * FROM " + TABLE_CARD;
 
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(query,null);
@@ -104,7 +104,7 @@ public class BDSQLiteHelper extends SQLiteOpenHelper {
         values.put(INGREDIENTES, produto.getIngredientes());
         values.put(PRECO, new Integer(produto.getPreco()));
 
-        int i = db.update(TABELA_CARDAPIO, //tabela
+        int i = db.update(TABLE_CARD, //tabela
                 values, //valores
                 ID+" = ?", //colunas para comparar
                 new String[]{
@@ -116,7 +116,7 @@ public class BDSQLiteHelper extends SQLiteOpenHelper {
     public int deleteProduto(Produto produto){
         SQLiteDatabase db = this.getWritableDatabase();
 
-        int i = db.delete(TABELA_CARDAPIO, //tabela
+        int i = db.delete(TABLE_CARD, //tabela
                 ID+" = ?", //colunas para comparar
                 new String[]{
                         String.valueOf(produto.getId())
